@@ -130,7 +130,7 @@ public class Ejercicio2 {
 			case 5:
 				//Borrar aalumno
 				System.out.println("Ingrese el dni del alumno para borrar:");
-				sc=new Scanner(System.in);
+				sc=new Scanner(System.in); 
 				String dniBorrar=sc.nextLine();
 				String dniCorrecto="";
 				for(int i=0;i<aulas.length;i++) {
