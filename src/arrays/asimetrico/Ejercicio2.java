@@ -117,7 +117,7 @@ public class Ejercicio2 {
 						String datoAlumno=aulas[i][j];
 						String alumno[]=datoAlumno.split(":");
 						if(alumno[1].equals(dni)){
-							alumnoCorrecto=alumno[1];
+							alumnoCorrecto=i+"";
 						}
 					}
 				}
