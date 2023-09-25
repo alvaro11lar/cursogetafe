@@ -85,7 +85,6 @@ public class Ejercicio2 {
 						}
 					}
 				}
-				int contadores=0;
 				String[]alumnoAprobado=new String[numAprobado];
 				int contar=0;
 				for(int i=0;i<aulas.length;i++) {
@@ -94,7 +93,7 @@ public class Ejercicio2 {
 						String alumno[]=datoAlumno.split(":");
 						if(Double.parseDouble(alumno[2])>=5) {
 							alumnoAprobado[contar]=datoAlumno;
-							contadores++;
+							contar++;
 						}	
 					}
 				}
@@ -115,9 +114,11 @@ public class Ejercicio2 {
 				for(int i=0;i<aulas.length;i++) {
 					for(int j=0;j<aulas[i].length;j++) {
 						String datoAlumno=aulas[i][j];
-						String alumno[]=datoAlumno.split(":");
-						if(alumno[1].equals(dni)){
-							alumnoCorrecto=i+"";
+						if(datoAlumno!=null) {
+							String alumno[]=datoAlumno.split(":");
+							if(alumno[1].equals(dni)){
+								alumnoCorrecto=i+"";
+							}
 						}
 					}
 				}
