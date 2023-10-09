@@ -54,6 +54,7 @@ public class Carrera {
 		while(c==null) {
 			for(int i=0;i<this.caballos.length;i++) {
 				avances[i]+=this.caballos[i].correr();
+				System.out.println("El caballo " + this.caballos[i].getNumero() + " avanzo " + avances[i]);
 				//System.out.println("El caballo " + this.caballos[i].getNumero() + "avanzo " + avances[i]);
 				if(avances[i]>=this.distancia) {
 					System.out.println("Gano con distancia de: " + avances[i]);

@@ -79,7 +79,6 @@ public class Caballo {
 		if(avance<0) {
 			return avance=0;
 		}else {
-			System.out.println("El caballo " + this.numero + " avanza " + avance);
 			return avance;
 		}
 

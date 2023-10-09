@@ -1,4 +1,4 @@
-package poo.ejercicios.composicion;
+package poo.ejercicios;
 
 public class AlumnoMain {
 
