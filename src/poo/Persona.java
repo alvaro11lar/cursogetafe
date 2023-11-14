@@ -9,7 +9,7 @@ public class Persona {
 	int edad;
 	
 	public Persona() {
-		nombre="Juan";
+		//nombre="Juan";
 	}
 	
 	public Persona(String nombre) {
@@ -18,6 +18,38 @@ public class Persona {
 	
 	
 	
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getApellidos() {
+		return apellidos;
+	}
+
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
+
+	public String getDni() {
+		return dni;
+	}
+
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
 	//Metodos
 	public void correr() {
 		System.out.println("La persona con nombre " + nombre + " y edad " + edad + " esta corriendo");
